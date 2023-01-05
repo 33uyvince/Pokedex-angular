@@ -1,0 +1,9 @@
+<div class="rectangle">
+  <app-header></app-header>
+  <div class="gallery-grid">
+    <app-card
+      *ngFor="let pokemonItem of pokemonList"
+      [pokemon]="pokemonItem"
+    ></app-card>
+  </div>
+</div>

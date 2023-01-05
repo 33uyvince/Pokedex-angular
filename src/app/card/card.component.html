@@ -1,0 +1,14 @@
+<div class="pokemon-picture-container">
+  <div class="parent bulba-con" [ngStyle]="{ 'border-color': pokemon?.color }">
+    <img class="pokemon-picture" [src]="pokemon?.image" />
+    <div class="poke-number" [ngStyle]="{ color: pokemon?.color }">
+      #{{ pokemon?.registrationNumber }}
+    </div>
+  </div>
+
+  <div class="border-parent">
+    <p class="poke-name" [ngStyle]="{ 'background-color': pokemon?.color }">
+      {{ pokemon?.name }}
+    </p>
+  </div>
+</div>

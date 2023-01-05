@@ -1,0 +1,45 @@
+.pokemon-picture-container {
+  display: grid;
+  position: relative;
+
+  .parent {
+    background-color: white;
+    padding: 16px 16px 0px 16px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+  }
+
+  .bulba-con {
+    border: 1px solid;
+  }
+
+  .pokemon-picture {
+    width: 100%;
+  }
+
+  .poke-name {
+    margin-top: -4px;
+    font-weight: 500;
+    line-height: 32px;
+    display: 1fr;
+    margin-bottom: 0px;
+    text-align: center;
+    justify-content: center;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+  }
+
+  /* Padding */
+
+  .border-parent {
+    height: 24px;
+  }
+
+  /* Positions*/
+  .poke-number {
+    background-color: none;
+    position: absolute;
+    top: 3px;
+    right: 10px;
+  }
+}
